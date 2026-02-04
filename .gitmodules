@@ -1,0 +1,3 @@
+[submodule "EnsureVault"]
+	path = EnsureVault
+	url = git@github.com:dhruvkshah75/EnsureVault.git
