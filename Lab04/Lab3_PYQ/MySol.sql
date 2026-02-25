@@ -19,7 +19,8 @@ order by avg_credit desc limit 1, 1;
 
 
 -- Q4: 
-select productLine, sum(quantityInStock * (MSRP - buyPrice)) as total_profit from products
+select productLine, sum(quantityInStock * (MSRP - buyPrice)) 
+as total_profit from products
 group by productLine order by total_profit desc limit 2;
 
 
@@ -27,9 +28,17 @@ group by productLine order by total_profit desc limit 2;
 -- customers have city and offices have city 
 select city from offices where city in (select city from customers);
 
+(select city from offices) 
+intersect 
+(select city from customers);
+
 -- Q6:
 select distinct(reportsTo) from employees
 where reportsTo in (select salesRepEmployeeNumber from customers);
+-- query 6 using set operations 
+(select reportsTo from employees) 
+intersect 
+(select salesRepEmployeeNumber from customers);
 
 -- Q7:
 select jobTitle, count(*) as C from employees
@@ -61,4 +70,5 @@ where customerNumber not in (
         select orderNumber from orderdetails where productCode = 'S72_3212'
     )
 );
+
 
