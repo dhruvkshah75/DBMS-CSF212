@@ -1,0 +1,46 @@
++------------------+-----------------+
+| ProductLine      | OrderedProducts |
++------------------+-----------------+
+| Classic Cars     |              37 |
+| Vintage Cars     |              25 |
+| Motorcycles      |              13 |
+| Planes           |              13 |
+| Trucks and Buses |              11 |
+| Ships            |               9 |
+| Trains           |               3 |
+| Extra Line       |               2 |
+| High End Cars    |               1 |
+| Test Line        |               1 |
++------------------+-----------------+
+10 rows in set (0.01 sec)
+
++--------------+------------------+----------------+
+| ProductLine1 | ProductLine2     | ordersTogether |
++--------------+------------------+----------------+
+| Classic Cars | Vintage Cars     |            106 |
+| Classic Cars | Trucks and Buses |             72 |
+| Planes       | Vintage Cars     |             64 |
++--------------+------------------+----------------+
+3 rows in set (0.25 sec)
+
++------------------------+----------+---------------+
+| Customer               | SalesRep | OfficeCity    |
++------------------------+----------+---------------+
+| American Souvenirs Inc | Foon Yue | NYC           |
+| No Order Customer      | Test     | San Francisco |
+| Precious Collectables  | Martin   | Paris         |
+| Zeta NoOrder           | Test     | San Francisco |
++------------------------+----------+---------------+
+4 rows in set (0.00 sec)
+
++----------+----------------+-----------------+
+| SalesRep | TotalCustomers | TotalOrderValue |
++----------+----------------+-----------------+
+| Rich     |              2 |      1600000.00 |
+| Gerard   |              8 |      1260577.81 |
+| Leslie   |              6 |      1081530.54 |
+| Pamela   |             10 |       868220.55 |
++----------+----------------+-----------------+
+4 rows in set (0.01 sec)
+
+

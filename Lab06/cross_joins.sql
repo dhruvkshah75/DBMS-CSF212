@@ -1,0 +1,1 @@
+-- Lab6 is based on joins and cross join 
