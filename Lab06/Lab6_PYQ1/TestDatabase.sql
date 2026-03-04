@@ -1,11 +1,11 @@
 /*Drop the database*/
-DROP DATABASE Lab5;
+DROP DATABASE Lab06;
 
 /* Create the database */
-CREATE DATABASE  IF NOT EXISTS Lab5;
+CREATE DATABASE  IF NOT EXISTS Lab06;
 
 /* Switch to the classicmodels database */
-USE Lab5;
+USE Lab06;
 
 
 /* Drop existing tables  */
