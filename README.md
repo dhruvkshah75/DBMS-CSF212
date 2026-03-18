@@ -10,3 +10,4 @@ Database Management Systems CS F212
 - **Lab4**: `Group By`, `Having` and `Set` operations
 - **Lab5**: `Joins`(inner join and outer joins) and `Nested Queries`
 - **Lab6**: `Joins` and `Cross Product` (cross join)
+- **Lab7**: `Views` and `User defined functions`(UDF)
